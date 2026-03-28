@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Gilam yuvish</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+            text-align: center;
+        }
+
+            
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+           color: darkblue;
+        }
+
+
+        .card {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .call {
+            background: green;
+            color: white;
+        }
+
+        .tg {
+            background: #0088cc;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+        }
+       
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Gilam Yuvish Xizmati</h1>
+    <h2>Bizning Xizmatlarimiz</h2>
+
+  <div class="container">
+
+    <div class="card">
+        <img src="parda.jpg" alt="">
+        <h2>Parda yuvish</h2>
+        <p>Pardalarni yuvib beramiz</p>
+     
+        <button class="call" onclick="qongiroq()">📞 Qo‘ng‘iroq</button>
+        <button class="tg" onclick="telegram()">💬 Telegram</button>
+    </div>
+
+    <div class="card">
+        <img src="adyol.jpg" alt="">
+        <h2>Adyol Yuvish</h2>
+        <p>adyol va ko'rpa yuvamiz</p>
+    
+        <button class="call" onclick="qongiroq()">📞 Qo‘ng‘iroq</button>
+        <button class="tg" onclick="telegram()">💬 Telegram</button>
+    </div>
+
+
+    <div class="card">
+        <img src="https://uborka24.uz/d/uborka24_uz_cleaner.jpg" alt="">
+        <h2>Uy tozalash</h2>
+        <p>Professional tozalash xizmati</p>
+
+        <button class="call" onclick="qongiroq()">📞 Qo‘ng‘iroq</button>
+        <button class="tg" onclick="telegram()">💬 Telegram</button>
+    </div>
+
+    <div class="info">
+         <h3>Biz haqimizda</h3>
+               <p>Tez va sifatli xizmat</p>
+               <p>Zamonaviy uskunalar</p>
+               <p>Har doim toza natija</p>
+               <p>Mijozlar ishonchi biz uchun muhim</p>
+
+         <h3>Nega bizni tanlaysiz?</h3>
+            
+               <p>1 kunda tayyor</p>
+               <p>Arzon narxlar</p>
+               <p>Uyga borib xizmat</p>
+               <p>Tajribali ustalar</p>
+
+    </div>
+
+    <div class="card">
+         <img src="rasm.jpg" alt="">
+         <h2>Gilam yuvish</h2>
+         <p>Joyida Yuvib berish xizmati</p>
+
+         <button class="call" onclick="qongiroq()">📞 Qo‘ng‘iroq</button>
+         <button class="tg" onclick="telegram()">💬 Telegram</button>
+    </div>
+
+     <div class="info">
+         <h3>🔥 Aksiya</h3>
+           <p>Bugun buyurtma bering!</p>
+           <p>Chegirmalar mavjud 💸</p>
+           <p>Tez yetib boramiz 🚗</p>
+    
+        <h3>Aloqa</h3>
+           <p>📞 +998 99 203 42 42</p>
+           <p>📍 Uzun tumani karer</p>
+           <p>⏰ Har kuni: 08:00 - 22:00</p>
+
+     </div>
+
+   </div>
+
+
+    <script>
+        function qongiroq() {
+            window.location.href = "tel:+998992034242";
+        }
+
+        function telegram() {
+            window.location.href = "https://t.me/uzun_gilam_yuvish";
+        }
+    </script>
+
+</body>
+</html>
